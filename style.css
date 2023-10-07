@@ -8,49 +8,30 @@ body{
     background-color: #bb9fce;
 }
 
+nav{
+    margin-left: auto;
+}
+
 /* Style header */
 header {
-    background-image: url(profil.jpg);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     text-align: center;
     padding: 20px 0;
+    border-radius: 30px;
 }
 
-/* Style navigation */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: #444;
-    padding: 10px 0;
-}
-
-nav li {
-    margin: 0 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
 
 /* Style section */
 section {
-    padding: 40px;
+    padding: 10px;
     text-align: center;
 }
 
-img {
-    width: 300px;
-    height: 250px;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
 .ttg {
-    padding: 20px;
+    padding: 30px;
     border: 2px solid #444; /* Tambahkan properti border */
-    border-radius: 10px; /* Tambahkan properti border-radius */
+    border-radius: 5px; /* Tambahkan properti border-radius */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Tambahkan efek bayangan */
     margin: 0 auto; /* Untuk membuat div menjadi tengah secara horizontal */
     background-color: antiquewhite;
